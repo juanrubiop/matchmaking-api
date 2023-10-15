@@ -1,15 +1,4 @@
-# matchmaking-match-api
-Matching api for the matchmaking product. cima ecosystem.
-
-
-
-Run on flask development server:
-```
-flask --app matchapi run --host=0.0.0.0 --port=8000 --debug
-```
-
-
-Run on gunicorn production server
-```
-gunicorn -w=4 -b=0.0.0.0:80 matchapi:app --access-logfile=-
+# matchmaking-match
+sample project which involves using Azure AI services, and Python API calling and creation packages, as well as its data science components. This creates an API that matches a candidate's skills with a job opening that fits them from a database.
+Credentials and details needed for its functioning have been omitted to preserve confidentiality.
 ```
